@@ -1,6 +1,6 @@
 {
   "name": "@wisdomgarden/capacitor-exit-app-ios",
-  "version": "1.2.2-3",
+  "version": "1.2.2-6",
   "description": "exit app on ios",
   "main": "dist/plugin.js",
   "module": "dist/esm/index.js",
@@ -29,7 +29,7 @@
   },
   "files": [
     "ios/",
-    "CapacitorExitAppIos.podspec"
+    "WisdomgardenCapacitorExitAppIos.podspec"
   ],
   "keywords": [
     "capacitor",
