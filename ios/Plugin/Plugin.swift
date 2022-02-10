@@ -16,7 +16,8 @@ public class ExitAppIosPlugin: CAPPlugin {
             UIControl().sendAction(#selector(URLSessionTask.suspend), to: UIApplication.shared, for: nil)
             //Comment if you want to minimise app
             Timer.scheduledTimer(withTimeInterval: 0.2, repeats: false) { (timer) in
-                exit(0)
+//                 exit(0)
+                abort()
             }
         }
     }
